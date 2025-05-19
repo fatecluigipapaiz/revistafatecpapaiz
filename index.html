@@ -13,10 +13,7 @@
         <nav class="cabecalho_menu" style="position: fixed;">
             <a class="cabecalho_menu_link" href="#index">Home</a>
             <a class="cabecalho_menu_link" href="#sobre">Sobre a Revista</a>
-            <a class="cabecalho_menu_link" href="#equipe">Equipe Editorial</a>
-            <a class="cabecalho_menu_link" href="#" disabled>Versões anteriores</a>
-            <a class="cabecalho_menu_link" href="#login">Login</a>
-            <a class="cabecalho_menu_link" href="#cadastro">|Cadastrar usuário|</a>
+            <a class="cabecalho_menu_link" href="#equipe">Equipe Editorial</a>      
         </nav>
     </header>
     <section id="index">
@@ -29,22 +26,24 @@
             com foco em Tecnologia e Inovação com edição semestral.</p>
         <div class="apresentacao_links">
           
-            <a class="apresentacao_links_links" href="#artigos">
-                <img src="assets/img/linkedin.png" class="icons">
-                Artigos Publicados
-            </a>
             <a class="apresentacao_links_links" href="#submeter">
-                <img src="assets/img/linkedin.png" class="icons">
+                <img src="assets/img/paper.png" class="icons">
                 Submeter Artigo
             </a>
-            <a class="apresentacao_links_links" href="#cadastro">
-                <img src="assets/img/linkedin.png" class="icons">
-                Cadastre seu usuário
+            <a class="apresentacao_links_links" href="#normas">
+                <img src="assets/img/journal.png" class="icons">
+                Normas da revista
             </a>
+            <!--
+            <a class="apresentacao_links_links_disabled" href="#">                
+                Breve Artigos Publicados
+            </a>-->
+
+
            
         </div>
         </section>
-            <img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 550px; height: 550px;">
+            <img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 340px; height: 340px;">
     </main>
     <footer class="rodape" style="margin-top: 2%;">
         
@@ -141,29 +140,43 @@
     <!--Seção cadastro-->
 
     <div style="margin-top: 15%;"></div>
-    <section id="cadastro">
+    <section id="normas">
         <main class="apresentacao">
 
 
             <div class="backform" style="margin-left: 0%;">
-                <p class="apresentacao_conteudo_texto" style="margin-bottom: 3%; font-size: 200%;"><strong>Faça seu cadastro de usuário  
-                    da Revista Fatec Luigi Papaiz.</strong></p>
-                    
+                <p class="apresentacao_conteudo_texto" style="margin-bottom: 3%; font-size: 200%;">
+                    <strong>Leia as regras e normas para submeter seu artigo.</strong></p>                   
                   
                 <form>
-                  <label for="nlogin">Login</label>
-                  <input type="text" id="nlogin" name="nlogin" placeholder="Seu usuário de login..">
+                    <h1>Seja bem vindo a Revista Fatec Luigi Papaiz</h1>
+                    <br>
+                    <p>
+                        <ul>                        
+                            <h3>Para submeter a essa revista você deve baixar o template disponível no site. Siga as regras
+                            de formatação sugerida no próprio template.</h3><br><br>
+                        </li>
+                        <li style="font-size: 20px;">Artigo Resumido: seu artigo resumido até 5 páginas com referências.</li><br>
+                        <li style="font-size: 20px;">Artigo Completo: seu artigo completo até 15 páginas com referências.</li>
+                        <br>
+                        <h3 style="text-align: center;">Você deve enviar seu artigo com as seguintes informações para o e-mail abaixo:</h3>
+                        <br>
+                        <h3 style="text-align: center;">fatec.papaiz@gmail.com</h3>
+                        <br>
+                        <h3>Mandar no e-mail as informações:</h3>
+                        <li>Nome Completo</li>
+                        <li>CPF</li>
+                        <li>RG</li>
+                        <li>Endereço completo com CEP</li>                        
+                        <li>Título do trabalho</li>
+                        <li>Instituição</li>
+                        <li>Nome completo dos demais autores, e-mails dos autores</li>
+                        <li>e-mail para contato: ator principal</li>
+                        <li>telefone para contato (whatsapp)</li>
+                    </ul>
+                    </p>
 
-                  <label for="npass">Senha</label>
-                  <input type="password" id="npass" name="npass" placeholder="Sua senha..">
 
-                  <label for="name">Nome</label>
-                  <input type="text" id="name" name="name" placeholder="Seu primeiro nome..">
-
-                  <label for="npass">E-Mail</label>
-                  <input type="text" id="nmail" name="nmail" placeholder="Seu e-mail..">
-              
-                  <input type="submit" value="Inscrever">
                 </form>
               </div>
 
@@ -185,7 +198,7 @@
                     Revista Fatec Luigi Papaiz.</strong></p>
                     
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, nobis? Necessitatibus dolor commodi velit harum nesciunt ducimus aperiam, provident iusto dicta nostrum debitis repellat repellendus consequuntur animi natus sunt libero.</p>
-                <img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 1185px; height: 570px; margin-bottom: 2%; filter: grayscale(80%);">
+                <!--<img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 1185px; height: 570px; margin-bottom: 2%; filter: grayscale(80%);">-->
               </div>
 
         </main>
@@ -205,7 +218,7 @@
                     Revista Fatec Luigi Papaiz.</strong></p>
                     
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, nobis? Necessitatibus dolor commodi velit harum nesciunt ducimus aperiam, provident iusto dicta nostrum debitis repellat repellendus consequuntur animi natus sunt libero.</p>
-                <img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 1185px; height: 570px; margin-bottom: 2%; filter: grayscale(80%);">
+                <!--<img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 1185px; height: 570px; margin-bottom: 2%; filter: grayscale(80%);">-->
               </div>
 
         </main>
@@ -227,18 +240,13 @@
                 <p class="apresentacao_conteudo_texto">Baixe o template.</p>
             <div class="apresentacao_links">
               
-                <a class="apresentacao_links_links" href="#artigos">
-                    <img src="assets/img/linkedin.png" class="icons">
+                <a class="apresentacao_links_links" href="assets/template/Template_RFLP.docx">
+                    <img src="assets/img/ai.png" class="icons">
                     Versão português
-                </a>
-                <a class="apresentacao_links_links" href="#cadastro">
-                    <img src="assets/img/linkedin.png" class="icons">
-                    Normas da revista
-                </a>
-               
+                </a>               
             </div>
             </section>
-                <img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 550px; height: 550px;">
+                <img src="assets/img/CapaSite.png" alt="Foto capa revista fatec" style="border-radius: 3%; width: 340px; height: 340px;">
 
         </main>
         <footer class="line">
